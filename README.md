@@ -4,8 +4,8 @@ PSR Http Client
 This repository holds all interfaces/classes/traits related to
 [PSR-18](http://www.php-fig.org/psr/psr-18/).
 
-Note that this is not a HTTP client implementation of its own. It is merely an
-interface that describes a HTTP client. See 
+Note that this is not an HTTP client implementation of its own. It is merely an
+interface that describes an HTTP client. See 
 [the specification](https://github.com/php-fig/fig-standards/blob/master/proposed/http-client/http-client.md)
 for more details.
 
