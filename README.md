@@ -10,5 +10,5 @@ interface that describes an HTTP client. See
 for more details.
 
 You can find implementations of the specification by looking for packages providing 
-the [psr/simple-cache-implementation](https://packagist.org/providers/psr/http-client-implementation)
+the [psr/http-client-implementation](https://packagist.org/providers/psr/http-client-implementation)
 virtual package.
