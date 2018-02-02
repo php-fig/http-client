@@ -10,7 +10,7 @@ interface ClientInterface
     /**
      * Sends a PSR-7 request and returns a PSR-7 response.
      *
-     * Every technically correct HTTP response MUST be returned as is, even if it represents an HTTP
+     * Every technically correct HTTP response MUST be returned as is, even if it represents a HTTP
      * error response or a redirect instruction. The only special case is 1xx responses, which MUST
      * be assembled in the HTTP client.
      *
@@ -25,7 +25,7 @@ interface ClientInterface
      *
      * @return ResponseInterface
      *
-     * @throws \Psr\Http\Client\Exception If an error happens during processing the request.
+     * @throws \Psr\Http\Client\ClientException If an error happens during processing the request.
      */
     public function sendRequest(RequestInterface $request): ResponseInterface;
 }
