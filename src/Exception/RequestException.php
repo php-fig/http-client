@@ -2,15 +2,15 @@
 
 namespace Psr\Http\Client\Exception;
 
-use Psr\Http\Message\RequestInterface;
 use Psr\Http\Client\ClientException;
+use Psr\Http\Message\RequestInterface;
 
 /**
  * Exception for when a request failed.
  *
  * Examples:
- *      - Request is invalid (eg. method is missing)
- *      - Runtime request errors (like the body stream is not seekable)
+ *      - Request is invalid (e.g. method is missing)
+ *      - Runtime request errors (e.g. the body stream is not seekable)
  */
 interface RequestException extends ClientException
 {
