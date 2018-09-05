@@ -11,7 +11,7 @@ use Psr\Http\Message\RequestInterface;
  *
  * Example: the target host name can not be resolved or the connection failed.
  */
-interface NetworkException extends ClientException
+interface NetworkExceptionInterface extends ClientExceptionInterface
 {
     /**
      * Returns the request.
