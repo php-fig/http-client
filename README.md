@@ -6,7 +6,7 @@ This repository holds all interfaces/classes/traits related to
 
 Note that this is not an HTTP client implementation of its own. It is merely an
 interface that describes an HTTP client. See 
-[the specification](https://github.com/php-fig/fig-standards/blob/master/proposed/http-client/http-client.md)
+[the specification](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-18-http-client.md)
 for more details.
 
 You can find implementations of the specification by looking for packages providing 
